@@ -63,7 +63,7 @@ const Hero = () => {
               alt={slide.title}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-salon-purple/60 to-salon-purple-light/50" />
+            <div className="absolute inset-0 bg-gradient-to-r from-salon-purple/20 to-salon-purple-light/15" />
           </div>
         ))}
 

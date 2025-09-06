@@ -77,7 +77,7 @@ const NailClasses = () => {
   ];
 
   return (
-    <section id="nail-classes" className="py-20 bg-gradient-to-b from-background to-accent/20">
+    <section id="nail-classes" className="py-20 bg-gradient-to-br from-background via-salon-purple-light/5 to-accent/10">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-salon-gradient bg-clip-text text-transparent">
@@ -96,7 +96,7 @@ const NailClasses = () => {
             alt="Nail Training Studio"
             className="w-full h-64 md:h-80 object-cover"
           />
-          <div className="absolute inset-0 bg-gradient-to-r from-salon-purple/70 to-salon-purple-light/60 flex items-center justify-center">
+          <div className="absolute inset-0 bg-gradient-to-r from-salon-purple/40 to-salon-purple-light/30 flex items-center justify-center">
             <div className="text-center text-white">
               <h3 className="text-2xl md:text-3xl font-bold mb-4">Professional Training Environment</h3>
               <Button size="lg" className="bg-white text-salon-purple hover:bg-white/90">
