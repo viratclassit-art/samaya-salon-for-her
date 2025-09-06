@@ -63,20 +63,20 @@ const Hero = () => {
               alt={slide.title}
               className="w-full h-full object-cover"
             />
-            <div className="absolute inset-0 bg-hero-gradient" />
+            <div className="absolute inset-0 bg-gradient-to-r from-salon-purple/60 to-salon-purple-light/50" />
           </div>
         ))}
 
         {/* Navigation Arrows */}
         <button
           onClick={prevSlide}
-          className="absolute left-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/20 backdrop-blur-sm hover:bg-white/30 transition-colors"
+          className="absolute left-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-salon-purple/30 backdrop-blur-sm hover:bg-salon-purple/50 transition-colors"
         >
           <ChevronLeft className="w-6 h-6 text-white" />
         </button>
         <button
           onClick={nextSlide}
-          className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-white/20 backdrop-blur-sm hover:bg-white/30 transition-colors"
+          className="absolute right-4 top-1/2 -translate-y-1/2 p-2 rounded-full bg-salon-purple/30 backdrop-blur-sm hover:bg-salon-purple/50 transition-colors"
         >
           <ChevronRight className="w-6 h-6 text-white" />
         </button>
